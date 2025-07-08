@@ -1,0 +1,47 @@
+# Python 依赖包列表
+
+# Langchain 核心包
+langchain==0.3.7
+langchain-openai==0.2.8
+langchain-core==0.3.15
+langchain-community==0.3.7
+
+# 真正的 MCP (Model Context Protocol) 实现
+# 注意：这里我们使用自己实现的 MCP 协议，符合标准规范
+# 如果要使用官方 MCP SDK，可以添加：
+# mcp==1.0.0
+
+# 异步和网络通信（用于真正的 MCP 协议）
+asyncio-mqtt==0.16.1
+aiofiles==23.2.1
+
+# HTTP 请求库
+requests==2.31.0
+httpx==0.27.0
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# 日志记录
+loguru==0.7.2
+
+# JSON 处理和数据结构
+pydantic==2.8.2
+
+# 时间处理
+python-dateutil==2.8.2
+
+# 数学计算
+numpy==1.24.3
+
+# 开发和测试工具
+pytest==7.4.4
+black==23.12.1
+flake8==7.0.0
+
+# 类型检查
+mypy==1.8.0
+
+# 文档生成
+mkdocs==1.5.3
+mkdocs-material==9.5.3
